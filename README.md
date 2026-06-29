@@ -2,7 +2,7 @@
 
 A Convolutional Neural Network built from scratch in PyTorch to classify images of clothing items into 10 categories (T-shirt, Trouser, Pullover, Dress, Coat, Sandal, Shirt, Sneaker, Bag, Ankle boot).
 
-This project demonstrates the core CNN concepts — convolutional layers, pooling, fully connected layers, training loops, and evaluation — applied end-to-end on a real dataset.
+This project demonstrates the core CNN concepts, convolutional layers, pooling, fully connected layers, training loops, and evaluation — applied end-to-end on a real dataset.
 
 ---
 
@@ -10,7 +10,7 @@ This project demonstrates the core CNN concepts — convolutional layers, poolin
 
 | Metric | Value |
 |---|---|
-| Test accuracy | ~90% |
+| Test accuracy | ~93.5% |
 | Training epochs | 5 |
 | Total parameters | 421,642 |
 
@@ -23,7 +23,7 @@ The model converges quickly and achieves strong performance on a standard CV ben
 **Design choices:**
 - 3×3 kernels with `padding=1` to preserve spatial dimensions in convolutions
 - MaxPool layers handle downsampling (28 → 14 → 7)
-- Channel count grows (1 → 32 → 64) as spatial size shrinks — the classic CNN funnel
+- Channel count grows (1 → 32 → 64) as spatial size shrinks
 - Two conv blocks are enough for 28×28 inputs
 
 ---
