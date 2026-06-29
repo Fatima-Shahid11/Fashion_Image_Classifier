@@ -64,7 +64,7 @@ The model converges quickly and achieves strong performance on a standard CV ben
 
 Open the notebook in Colab and run all cells:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Fatima-Shahid11/ml-portfolio/blob/main/01-fashion-mnist-cnn/notebook.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Hlvb40nin4WPuQhgSKVTVF66gLniCt_a?usp=sharing)
 
 Or locally:
 ```bash
