@@ -43,7 +43,7 @@ The model converges quickly and achieves strong performance on a standard CV ben
 
 ## Tech stack
 
-- **Python**, **PyTorch**, **torchvision**
+- **Python**, **PyTorch**
 - **matplotlib**, **seaborn** for visualization
 - **scikit-learn** for confusion matrix and metrics
 - **Google Colab** for training environment
@@ -61,16 +61,6 @@ Or locally:
 pip install torch torchvision matplotlib seaborn scikit-learn
 jupyter notebook notebook.ipynb
 ```
-
----
-
-## What I learned
-
-- Why CNNs work better than fully connected networks for images — they exploit spatial locality and translation invariance
-- How spatial dimensions shrink as channel depth grows through the network
-- The difference between training mode and evaluation mode, and why `model.eval()` and `torch.no_grad()` matter
-- Why the confusion matrix tells a much richer story than accuracy alone
-- How backpropagation and gradient descent actually update millions of weights to reduce loss
 
 ---
 
