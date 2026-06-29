@@ -14,6 +14,16 @@ This project demonstrates the core CNN concepts, convolutional layers, pooling, 
 | Training epochs | 5 |
 | Total parameters | 421,642 |
 
+## Classification
+
+<img width="1173" height="497" alt="image" src="https://github.com/user-attachments/assets/27162278-67e1-42bf-846e-dd1b5f55985d" />
+
+
+
+## Confusion Matrix
+
+<img width="785" height="624" alt="image" src="https://github.com/user-attachments/assets/0a230c6b-d404-41b5-85c1-44e3b1e019f6" />
+
 The model converges quickly and achieves strong performance on a standard CV benchmark, with most remaining errors coming from visually similar classes (e.g., shirt vs T-shirt vs pullover).
 
 ---
